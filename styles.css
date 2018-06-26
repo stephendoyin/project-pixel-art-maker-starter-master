@@ -42,7 +42,7 @@ input[type=number] {
     border: 1px solid grey;
 }
 
-input[type=submit]{
+input[type=submit] {
     border-radius: 4px;
     background-color: #2a2a2a;
     border: 1px solid #2a2a2a;
@@ -52,7 +52,7 @@ input[type=submit]{
     text-transform: uppercase;
 }
 
-input[type=submit]:hover{
+input[type=submit]:hover {
     cursor: pointer;
     background-color: #434343;
 }

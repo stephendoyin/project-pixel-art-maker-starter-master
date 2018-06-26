@@ -2,19 +2,19 @@
 
 $(function () {
 
-    //makegrill function called on submit and 
+    //makegrid function called on submit to make grid
     function makeGrid(height, width) {
 
         const tableRowBeginTag = "<tr>";
         const tableRowCloseTag = "</tr>";
-        const tableData = "<td></td>";
+        const tableDataTag = "<td></td>";
         //clears grid whenever makegrid() is called
         let insideTable = "";
         let i = 0;
         while (i < height) {
             insideTable += tableRowBeginTag;
             for (let x = 0; x < width; x++) {
-                insideTable += tableData;
+                insideTable += tableDataTag;
             }
             insideTable += tableRowCloseTag;
             i++;
@@ -23,7 +23,7 @@ $(function () {
 
     }
 
-    //prevent reload and get value chosen by user,
+    //prevent reload on submit and get height & width value chosen by user,
     //convert to number type and call the makegrid()
     $("#sizePicker").submit(function (event) {
         event.preventDefault();
