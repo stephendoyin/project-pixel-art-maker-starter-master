@@ -1,18 +1,16 @@
-// Select color input
-// Select size input
 
-// When size is submitted by the user, call makeGrid()
 
 $(function () {
-    //makegrill function call on submit
+
+    //makegrill function called on submit and 
+    //clears grid whenever makegrid() is called
     function makeGrid(height, width) {
         //tags for inside of html table
         let tableRowBeginTag = "<tr>";
         let tableRowCloseTag = "</tr>";
         let tableData = "<td></td>";
-        //clears grid whenever makegrid() is called
         let insideTable = "";
-        //create tag
+        //create tags needed for table and insert html format inside of table 
         for (let i = 0; i < height; i++) {
             insideTable += tableRowBeginTag;
             for (let x = 0; x < width; x++) {
@@ -20,18 +18,14 @@ $(function () {
             }
             insideTable += tableRowCloseTag;
         }
-        //insert html format inside of table 
         $("#pixelCanvas").html(insideTable);
-
     }
-
+    //prevent reload and get value chosen by user,
+    //convert to number type and call the makegrid()
     $("#sizePicker").submit(function (event) {
-
         event.preventDefault();
-        //get value chosen by user and convert to number type
         let width = Number($("#inputWidth").val());
         let height = Number($("#inputHeight").val());
-        //call the makegrid() function
         makeGrid(height, width);
 
     });

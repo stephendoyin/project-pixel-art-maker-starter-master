@@ -37,17 +37,16 @@ td {
 
 input[type=number] {
     width: 6em;
-    padding: 7px;
+    padding: 8px;
     border-radius: 4px;
     border: 1px solid grey;
 }
 
 input[type=submit]{
-    display: inline-block; 
-    border-radius: 200px;
-    background-color: #313131;
-    border: none;
-    padding: 9px 30px;
+    border-radius: 4px;
+    background-color: #000000;
+    border: 1px solid #000000;;
+    padding: 8px 30px;
     color: white;
     margin-left: 15px;
     text-transform: uppercase;
@@ -55,6 +54,6 @@ input[type=submit]{
 
 input[type=submit]:hover{
     cursor: pointer;
-    background-color: #575555;
+    background-color: #2a2a2a;
 }
 
