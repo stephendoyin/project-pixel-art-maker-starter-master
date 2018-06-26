@@ -19,7 +19,7 @@ h2:first-of-type {
 table,
 tr,
 td {
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 
 table {
@@ -45,7 +45,7 @@ input[type=number] {
 input[type=submit]{
     display: inline-block; 
     border-radius: 200px;
-    background-color: rgb(49, 49, 49);
+    background-color: #313131;
     border: none;
     padding: 9px 30px;
     color: white;
@@ -55,6 +55,6 @@ input[type=submit]{
 
 input[type=submit]:hover{
     cursor: pointer;
-    background-color: rgb(87, 85, 85);
+    background-color: #575555;
 }
 
