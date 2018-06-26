@@ -1,6 +1,5 @@
 body {
     text-align: center;
-    font-family: roboto;
 }
 
 h1 {
@@ -32,9 +31,8 @@ tr {
     height: 20px;
 }
 
-td { 
+td {
     width: 20px;
-    border: 1px solid black ;
 }
 
 input[type=number] {
