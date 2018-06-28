@@ -11,6 +11,7 @@ $(function () {
         //clears grid whenever makegrid() is called
         let insideTable = "";
         let i = 0;
+        
         while (i < height) {
             insideTable += tableRowBeginTag;
             for (let x = 0; x < width; x++) {
