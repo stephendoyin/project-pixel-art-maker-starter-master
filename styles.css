@@ -39,7 +39,7 @@ input[type=number] {
     width: 6em;
     padding: 8px;
     border-radius: 4px;
-    border: 1px solid grey;
+    border: 1px solid #808080;
 }
 
 input[type=submit] {
@@ -47,7 +47,7 @@ input[type=submit] {
     background-color: #2a2a2a;
     border: 1px solid #2a2a2a;
     padding: 8px 30px;
-    color: white;
+    color: #ffffff;
     margin-left: 15px;
     text-transform: uppercase;
 }
