@@ -1,18 +1,28 @@
 # Pixel Art Maker Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
-## Instructions
-
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+It allow users create a grid of squares representing their design, and apply colors to those squares to create a digital masterpiece.
 
 
+## Prerequisites
+
+To view Pixel Art Maker, you may use the current version of Edge, Firefox or Chrome.
+
+
+### Deployment
+
+Click the link below to view live version of project on your browser.
+ 
+
+### Link
+
+[Pixel-Art-Maker-Project](https://stephendoyin.github.io/project-pixel-art-maker-starter-master/)
+
+OR 
+ 
+https://stephendoyin.github.io/project-pixel-art-maker-starter-master/
+
+
+### Acknowledgements
+
+* Starter template delivered by [Udacity](https://www.udacity.com/).
+* Due thanks to [Andela](https://andela.com/) for the support.
